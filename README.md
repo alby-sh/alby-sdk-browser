@@ -1,7 +1,7 @@
-# @alby/browser
+# @alby-sh/browser
 
-[![npm version](https://img.shields.io/npm/v/@alby/browser.svg?color=cb3837&logo=npm)](https://www.npmjs.com/package/@alby/browser)
-[![bundle size](https://img.shields.io/bundlephobia/minzip/@alby/browser.svg?label=gzip)](https://bundlephobia.com/package/@alby/browser)
+[![npm version](https://img.shields.io/npm/v/@alby-sh/browser.svg?color=cb3837&logo=npm)](https://www.npmjs.com/package/@alby-sh/browser)
+[![bundle size](https://img.shields.io/bundlephobia/minzip/@alby-sh/browser.svg?label=gzip)](https://bundlephobia.com/package/@alby-sh/browser)
 [![CI](https://github.com/alby-sh/alby-sdk-browser/actions/workflows/ci.yml/badge.svg)](https://github.com/alby-sh/alby-sdk-browser/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
 
@@ -20,13 +20,13 @@ zero runtime dependencies, works with a `<script>` tag or any bundler.
 ## Install
 
 ```sh
-npm install @alby/browser
+npm install @alby-sh/browser
 ```
 
 Or drop it on the page directly:
 
 ```html
-<script src="https://unpkg.com/@alby/browser/dist/alby.iife.js"></script>
+<script src="https://unpkg.com/@alby-sh/browser/dist/alby.iife.js"></script>
 <script>
   Alby.init({
     dsn: 'https://<PUBLIC_KEY>@alby.sh/ingest/v1/<APP_ID>',
@@ -39,7 +39,7 @@ Or drop it on the page directly:
 ## Usage (npm)
 
 ```js
-import { Alby } from '@alby/browser'
+import { Alby } from '@alby-sh/browser'
 
 Alby.init({
   dsn: 'https://<PUBLIC_KEY>@alby.sh/ingest/v1/<APP_ID>',

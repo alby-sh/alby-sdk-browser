@@ -66,7 +66,7 @@ Alby.init({
 })
 
 try {
-  throw new Error('smoke-test: captured by @alby/browser e2e')
+  throw new Error('smoke-test: captured by @alby-sh/browser e2e')
 } catch (err) {
   Alby.captureException(err, { level: 'error' })
 }

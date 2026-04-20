@@ -1,5 +1,5 @@
 {
-  "name": "@alby/browser",
+  "name": "@alby-sh/browser",
   "version": "0.1.0",
   "description": "Official Alby error-tracking SDK for browsers",
   "keywords": [
