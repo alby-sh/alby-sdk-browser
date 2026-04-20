@@ -2,7 +2,7 @@
 
 [![npm version](https://img.shields.io/npm/v/@alby/browser.svg?color=cb3837&logo=npm)](https://www.npmjs.com/package/@alby/browser)
 [![bundle size](https://img.shields.io/bundlephobia/minzip/@alby/browser.svg?label=gzip)](https://bundlephobia.com/package/@alby/browser)
-[![CI](https://github.com/alby-sh/alby-browser/actions/workflows/ci.yml/badge.svg)](https://github.com/alby-sh/alby-browser/actions/workflows/ci.yml)
+[![CI](https://github.com/alby-sh/alby-sdk-browser/actions/workflows/ci.yml/badge.svg)](https://github.com/alby-sh/alby-sdk-browser/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
 
 Official [Alby](https://alby.sh) error-tracking SDK for web browsers. Tiny (< 10 KB gzipped IIFE),
@@ -100,8 +100,8 @@ retries are idempotent.
 ## Links
 
 - Website: [alby.sh](https://alby.sh)
-- Report issues: [GitHub Issues](https://github.com/alby-sh/alby-browser/issues)
-- Other SDKs: [alby-js](https://github.com/alby-sh/alby-js) · [alby-php](https://github.com/alby-sh/alby-php) · [alby-python](https://github.com/alby-sh/alby-python)
+- Report issues: [GitHub Issues](https://github.com/alby-sh/alby-sdk-browser/issues)
+- Other SDKs: [alby-sdk-js](https://github.com/alby-sh/alby-sdk-js) · [alby-sdk-php](https://github.com/alby-sh/alby-sdk-php) · [alby-sdk-python](https://github.com/alby-sh/alby-sdk-python)
 
 ## License
 

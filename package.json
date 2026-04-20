@@ -10,12 +10,12 @@
     "crash-reporting",
     "browser"
   ],
-  "homepage": "https://github.com/alby-sh/alby-browser",
+  "homepage": "https://github.com/alby-sh/alby-sdk-browser",
   "license": "MIT",
   "author": "Alby <info@alby.sh>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/alby-sh/alby-browser.git"
+    "url": "https://github.com/alby-sh/alby-sdk-browser.git"
   },
   "type": "module",
   "main": "./dist/alby.cjs.js",
