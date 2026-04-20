@@ -1,6 +1,11 @@
 # @alby/browser
 
-Official Alby error-tracking SDK for web browsers. Tiny (< 10 KB gzipped IIFE),
+[![npm version](https://img.shields.io/npm/v/@alby/browser.svg?color=cb3837&logo=npm)](https://www.npmjs.com/package/@alby/browser)
+[![bundle size](https://img.shields.io/bundlephobia/minzip/@alby/browser.svg?label=gzip)](https://bundlephobia.com/package/@alby/browser)
+[![CI](https://github.com/alby-sh/alby-browser/actions/workflows/ci.yml/badge.svg)](https://github.com/alby-sh/alby-browser/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
+
+Official [Alby](https://alby.sh) error-tracking SDK for web browsers. Tiny (< 10 KB gzipped IIFE),
 zero runtime dependencies, works with a `<script>` tag or any bundler.
 
 - Conforms to the [Alby Ingest Protocol v1](./PROTOCOL_V1.md).
@@ -91,6 +96,12 @@ See [PROTOCOL_V1.md](./PROTOCOL_V1.md) for the full schema. In short, the SDK
 `X-Alby-Dsn: <public_key>` header, handles 429 `Retry-After`, and retries 5xx
 with backoff. Every event carries a client-generated `event_id` (UUIDv4) so
 retries are idempotent.
+
+## Links
+
+- Website: [alby.sh](https://alby.sh)
+- Report issues: [GitHub Issues](https://github.com/alby-sh/alby-browser/issues)
+- Other SDKs: [alby-js](https://github.com/alby-sh/alby-js) · [alby-php](https://github.com/alby-sh/alby-php) · [alby-python](https://github.com/alby-sh/alby-python)
 
 ## License
 
